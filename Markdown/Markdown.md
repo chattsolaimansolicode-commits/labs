@@ -1,249 +1,109 @@
----
-marp: true
-theme: default
-paginate: true
-size: 16:9
-style: |
-  section {
-    font-family: Inter, "Segoe UI", sans-serif;
-    background: #101827;
-    color: #e8eef7;
-    padding: 48px 64px;
-    font-size: 25px;
-  }
-  section.light {
-    background: #f5f8fc;
-    color: #202b3c;
-  }
-  h1, h2, h3 {
-    font-family: "Segoe UI", Arial, sans-serif;
-    color: #56c2d6;
-  }
-  section.light h1,
-  section.light h2,
-  section.light h3 {
-    color: #1769aa;
-  }
-  h1 {
-    font-size: 1.8em;
-  }
-  h2 {
-    font-size: 1.3em;
-  }
-  strong {
-    color: #73d6bd;
-  }
-  section.light strong {
-    color: #1769aa;
-  }
-  code {
-    background: #26354a;
-    color: #a9e5f0;
-    padding: 2px 6px;
-    border-radius: 4px;
-  }
-  section.light code {
-    background: #e5edf6;
-    color: #143b5d;
-  }
-  pre {
-    border: 1px solid #34455c;
-    border-radius: 8px;
-    font-size: 0.72em;
-  }
-  section.light pre {
-    border-color: #d2deeb;
-  }
-  a {
-    color: #73d6bd;
-  }
-  section.light a {
-    color: #1769aa;
-  }
-  table {
-    font-size: 0.78em;
-  }
-  th {
-    background: #26354a;
-  }
-  section.light th {
-    background: #e5edf6;
-  }
-  blockquote {
-    border-left: 5px solid #56c2d6;
-    padding-left: 1em;
-  }
----
-
-# Lab Markdown
+# Real Estate Portal
 
 ---
 
-<!-- _class: light -->
+## 1. Project Subject
 
-## Lab Plan
+My project is a **Real Estate Portal**.
 
-1. Introduction
-2. Problems Encountered
-3. Solutions Implemented
+It is a web application that allows users to view and manage real estate properties. It organizes information about property agents, property listings, and property types.
 
 ---
 
-## Introduction
+## 2. Project Objective
 
-Markdown is a lightweight markup language for writing structured, readable text. It is commonly used for project documentation, notes, issues, and learning materials.
+The objective of this project is to simplify the management and display of real estate properties.
 
-In this lab, you will practice how to:
+Users can:
 
-- Organize content with headings and lists.
-- Add emphasis, links, quotes, and code.
-- Create tables, task lists, and images.
-- Use HTML when a Markdown feature is not enough.
-
----
-
-<!-- _class: light -->
-
-## Problems Encountered
-
-| Common pitfall | What can go wrong |
-| :--- | :--- |
-| Skipping heading levels | The document outline becomes confusing. |
-| Forgetting blank lines | Some renderers may combine nearby blocks unexpectedly. |
-| Using the wrong link or image path | The destination or image cannot be found. |
-| Mismatching code fences | Markdown inside the example is rendered instead of displayed. |
-| Assuming every renderer supports the same features | Task lists or embedded HTML may look different. |
+- Manage property agents.
+- Add and manage property listings.
+- Organize properties by type.
+- Display available properties.
 
 ---
 
-## Solutions Implemented
+## 3. Project Information
 
-| Pitfall | Reliable practice |
-| :--- | :--- |
-| Unclear heading hierarchy | Start with `#` and add heading levels in order. |
-| Blocks run together | Leave a blank line between paragraphs, lists, and other blocks. |
-| Broken destinations | Use a descriptive label and verify the relative path or URL. |
-| Code example renders as content | Wrap examples in matching triple-backtick fences and name the language. |
-| Renderer differences | Preview the file in its target platform and check its Markdown support. |
+| Information | Details |
+|---|---|
+| Application Type | Real Estate Portal |
+| Developer | Solaiman Chatt |
+| Entity 1 | Agent |
+| Entity 2 | PropertyListing |
+| Entity 3 | PropertyType |
 
 ---
 
-## Headings and Paragraphs
+## 4. Project Features
 
-Use `#` characters to create headings. More `#` characters mean a lower-level heading. Leave a blank line between separate paragraphs.
+1. Add new property listings.
+2. Display properties on the homepage.
+3. Manage property information.
+4. Assign properties to agents.
+5. Organize properties by type.
+6. Display property details.
 
-```markdown
-# Page title
-## Section
-### Subsection
+---
 
-This is the first paragraph.
+## 5. Project Tasks
 
-This is a second paragraph.
+- [x] Define the project subject.
+- [x] Define the project objective.
+- [x] Identify the main entities.
+- [x] Create the project prototype.
+- [ ] Complete the database.
+- [ ] Develop all application features.
+- [ ] Test the application.
+
+---
+
+## 6. Technologies
+
+- **HTML:** To structure web pages.
+- **CSS:** To style the application.
+- **JavaScript:** To manage frontend interactions.
+- **PHP:** To develop the backend.
+- **MySQL:** To store and manage data.
+- **Tailwind CSS:** To create a responsive user interface.
+- **Fetch API:** To communicate between frontend and backend.
+
+---
+
+## 7. Example Code
+
+Example of a property in PHP:
+
+```php
+$property = [
+    "title" => "Modern Apartment",
+    "price" => 850000,
+    "location" => "Tangier",
+    "type" => "Apartment",
+    "description" => "A beautiful modern apartment."
+];
 ```
 
-Use headings in order to make the content easier to scan and navigate.
+---
+
+## 8. Project Image
+
+![Real Estate Portal](image/real-estate.png)
 
 ---
 
-<!-- _class: light -->
+## 9. Useful Link
 
-## Lists
-
-Use `-`, `*`, or `+` for unordered lists. Numbered lists use a number followed by a period.
-
-```markdown
-- Collect the requirements
-- Write the content
-  - Review the examples
-
-1. Create a file named `README.md`.
-2. Add headings and content.
-3. Preview the rendered result.
-```
-
-Indent nested items consistently so their relationship stays clear.
+[Visit GitHub](https://github.com/chattsolaimansolicode-commits)
 
 ---
 
-## Emphasis, Inline Code, and Links
+## 10. Project Description
 
-```markdown
-**Bold text**
-_Italic text_
-**_Bold and italic text_**
-
-Use `inline code` for a command, file name, or short value.
-
-[Markdown Guide](https://www.markdownguide.org/)
-```
-
-Use link text that explains where the link goes instead of labels such as “click here.”
+> A Real Estate Portal is a web application designed to display and manage property listings, organize property types, and manage real estate agents.
 
 ---
 
-<!-- _class: light -->
-
-## Quotes and Code Blocks
-
-Start a quote with `>`. Use triple backticks for a multi-line code block, and specify its language for clearer presentation.
-
-> Markdown keeps the source readable while adding useful structure.
-
-```javascript
-const greeting = "Hello, Markdown!";
-console.log(greeting);
-```
-
-Use inline code for short snippets and fenced blocks for examples that span multiple lines.
-
----
-
-## Tables and Task Lists
-
-```markdown
-| Topic | Status |
-| :--- | :---: |
-| Headings | Done |
-| Links | In progress |
-
-- [x] Create the document
-- [ ] Check the rendered preview
-```
-
-The `x` marks a completed task. Task-list rendering depends on the Markdown platform.
-
----
-
-<!-- _class: light -->
-
-## Images, HTML, and Separators
-
-Add an image with alternative text and a path to the image:
-
-```markdown
-![A descriptive caption](images/example.png)
-```
-
-Some Markdown renderers allow HTML for features such as collapsible details:
-
-```html
-<details>
-  <summary>Show more</summary>
-  Additional information goes here.
-</details>
-```
-
-In Marp, a line containing three hyphens (`---`) separates slides. In ordinary Markdown documents, it can render as a horizontal rule.
-
----
-
-## Practice Checklist
-
-- [ ] Create a Markdown file.
-- [ ] Add a title, sections, and paragraphs.
-- [ ] Include a list, a link, and a code example.
-- [ ] Add a table and a task list.
-- [ ] Preview the file and correct any broken paths or formatting.
-
-Markdown features can vary by platform, so always check the rendered document where it will be published.
+- **Project developed by:** Solaiman Chatt.
+- **Training center:** Solicode.
+- **Year:** 2026.
