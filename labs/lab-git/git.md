@@ -1,17 +1,17 @@
 ---
 marp: true
 theme: default
-paginate: true
+paginate: true  
 
 
 ---
 
 # Git & GitHub
 
-### Version Control et collaboration
+### Version Control et  collaboration
 
 
-Présenté par : Oumaima Mahfoud
+Présenté par : Oumaima  Mahfoud
 SOLICODE
 
 ---
@@ -33,7 +33,7 @@ SOLICODE
 
 # 1. Introduction
 
-Imaginez que vous travaillez sur un projet et qu’après plusieurs modifications, votre code ne fonctionne plus. Vous voulez revenir à une ancienne version, mais vous ne savez pas comment faire.
+Imaginez que vouus travaillez sur un projet et qu’après plusieurs modifications, votre code ne fonctionne plus. Vous voulez revenir à une ancienne version, mais vous ne savez pas comment faire.
 
 
 ---
