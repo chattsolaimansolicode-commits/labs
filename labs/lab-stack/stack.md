@@ -123,9 +123,8 @@ style: |
 
 *Année : 2026*
 
-<!--
-Bonjour, je vais vous présenter les Labs réalisés dans le cadre de ma formation Développeur Full Stack, ainsi que la stack technique étudiée.
--->
+<!-- Bonjour, je vais vous présenter mon travail sur les Labs. -->
+
 
 ---
 
@@ -162,9 +161,8 @@ Développement, langages et production.
 </div>
 </div>
 
-<!--
-Voici le plan de ma présentation. Je commencerai par expliquer le principe des Labs, puis je présenterai la stack technique et les quatre phases de formation.
--->
+<!-- Voici le plan de ma présentation. -->
+
 
 ---
 
@@ -181,9 +179,8 @@ Un **Lab** est un exercice pratique ciblé qui permet de :
 
 > Un Lab = Une technologie + Un objectif précis
 
-<!--
-Un Lab est un exercice pratique qui permet de découvrir une technologie et de comprendre son fonctionnement à travers un objectif précis.
--->
+<!-- Un Lab est un exercice pratique pour apprendre une technologie. -->
+
 
 ---
 
@@ -224,9 +221,8 @@ Un Lab est un exercice pratique qui permet de découvrir une technologie et de c
 </div>
 </div>
 
-<!--
-Les Labs permettent d'apprendre progressivement, de pratiquer les technologies et de conserver une documentation utile pour les prochains travaux.
--->
+<!-- Les Labs m'aident à apprendre et à pratiquer progressivement. -->
+
 
 ---
 
@@ -259,28 +255,29 @@ Les Labs permettent d'apprendre progressivement, de pratiquer les technologies e
 </div>
 </div>
 
-<!--
-Cette slide présente la stack technique. Alpine.js et Tailwind CSS concernent la partie frontend. PHP, Laravel et MySQL constituent les technologies de la partie backend et de gestion des données.
--->
+<!-- Voici les technologies que j'utilise dans ma formation. -->
+
 
 ---
 
 # 🎨 Stack Technique — Frontend & Backend
 
-## Frontend
+# 💻 Stack Technique
 
-- ⚡ **Alpine.js** — Framework JavaScript léger et réactif.
-- 🎨 **Tailwind CSS** — Framework CSS utility-first.
+## Frontend
+- **Alpine.js** — Framework JavaScript léger et réactif.
+- **Tailwind CSS** — Framework CSS utility-first.
+- **Preline** — Composants UI avec Tailwind CSS.
 
 ## Backend
+- **PHP Native** — PHP pur sans framework.
+- **Laravel** — Framework PHP moderne et élégant.
+- **Kotlin** — Langage moderne pour Android/Backend.
 
-- 🐘 **PHP** — Langage serveur.
-- 🚀 **Laravel** — Framework PHP moderne et élégant.
-- 🗄️ **MySQL** — Base de données relationnelle.
+## Base de données
+- **MySQL** — Base de données relationnelle.
+<!-- Je vais vous expliquer le rôle de chaque technologie. -->
 
-<!--
-Je vais détailler les technologies de chaque partie. Le frontend concerne l'interface et les interactions. Le backend permet de traiter les données et de gérer la logique serveur.
--->
 
 ---
 
@@ -299,9 +296,8 @@ Je vais détailler les technologies de chaque partie. Le frontend concerne l'int
 9. **Tailwind CSS** — Framework CSS utility-first
 10. **Preline** — Composants UI avec Tailwind
 
-<!--
-La première phase concerne les fondations et les outils. Elle regroupe dix Labs pour découvrir les outils de documentation, de développement et de création d'interfaces.
--->
+<!-- Dans cette première phase, j'ai découvert les outils de base. -->
+
 
 ---
 
@@ -317,8 +313,8 @@ La première phase concerne les fondations et les outils. Elle regroupe dix Labs
 16. **ASCII** — Art et diagrammes en texte
 
 <!--
-La deuxième phase est consacrée aux méthodologies et à la collaboration. Elle présente différentes approches pour organiser le travail et collaborer dans un projet.
--->
+<!-- Dans cette phase, j'ai découvert les méthodes de travail en équipe. -->
+
 
 ---
 
@@ -335,9 +331,8 @@ La deuxième phase est consacrée aux méthodologies et à la collaboration. Ell
 23. **Prompt-Agent-Skill** — IA et automatisation
 24. **Communication avec IA** — Interaction avec l'IA
 
-<!--
-La troisième phase porte sur le développement et les langages. Elle regroupe les Labs liés à la programmation, à la programmation orientée objet, à PHP, Laravel, JavaScript et à l'intelligence artificielle.
--->
+<!-- Cette phase concerne la programmation et les différents langages. -->
+
 
 ---
 
@@ -353,8 +348,8 @@ La troisième phase porte sur le développement et les langages. Elle regroupe l
 30. **Agent** — Automatisation avec agents IA
 
 <!--
-La quatrième phase concerne le projet et la production. Elle aborde la veille technologique, la planification, Git, la stack technique et les agents IA.
--->
+<!-- Cette dernière phase concerne le projet et la mise en production. -->
+
 
 ---
 
@@ -374,6 +369,4 @@ La quatrième phase concerne le projet et la production. Elle aborde la veille t
 
 ### Des questions ?
 
-<!--
-Pour conclure, les trente Labs sont répartis en quatre phases qui couvrent les outils, les méthodologies, le développement et la production. Merci pour votre attention. Je suis prêt à répondre à vos questions.
--->
+<!-- Merci pour votre attention, je suis prêt à répondre à vos questions. -->
