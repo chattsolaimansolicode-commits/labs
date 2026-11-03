@@ -11,7 +11,7 @@ paginate: true
 
 **Réalisé par :** Solaiman Chatt
 
-**Encadré par :** [Nom de l'encadrant]
+**Encadré par :** Essarraj Fouad
 
 **Année :** 2026
 
